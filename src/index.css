@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.header{
+  height: 80px;
+  font-size: 24px;
+  color: #fff;
+  background: #009999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.addTodoForm{
+  display: flex;
+  flex: 1;
+  margin-top: 24px;
+}
+.btn{
+  margin-left: 12px;
+}
+.listItems{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 24px;
+  padding: 6px;
+}
+.listItems:hover{
+  background: #ff9797;
+  border-radius: 6px;
+}
+.close{
+  color: gray;
+  text-decoration: line-through;
+}
